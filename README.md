@@ -1,3 +1,24 @@
+Machine Learning Classification of Chemically Peculiar Stars Using TESS Photometric Light Curves
+
+Requirements
+
+The code in this repository requires Python 3 and the following Python packages:
+
+* NumPy
+* Pandas
+* SciPy
+* Scikit-learn
+* XGBoost
+* PyWavelets
+* Astropy
+* Openpyxl
+
+All required dependencies are listed in requirements.txt. To install them, run:
+
+pip install -r requirements.txt
+
+
+
 Final Training Catalog
 
 The Training_Catalog_Final file contains the initial catalog of CP1 and CP2 stars selected for preparing the training dataset used in the XGBoost classification pipeline. This catalog serves as the reference list for identifying and organizing the labeled stellar samples used for model training and validation.
@@ -7,7 +28,7 @@ The Training_Catalog_Final file contains the initial catalog of CP1 and CP2 star
 
 Overview
 
-This module extracts numerical features from detrended TESS light curves of chemically peculiar (CP) stars. The extracted features describe the statistical properties, temporal correlations, frequency-domain characteristics, and multiscale structure of the photometric signals.
+This module extracts numerical features from detrended TESS light curves of chemically peculiar (CP) stars. The extracted features describe the statistical properties, temporal correlations, frequency-domain characteristics, and multiscale structure of the photometric light curves.
 
 The extracted features are saved in a CSV file for subsequent machine-learning classification.
 
