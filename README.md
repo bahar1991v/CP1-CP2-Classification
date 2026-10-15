@@ -1,3 +1,8 @@
+Final Training Catalog
+
+The Training_Catalog_Final file contains the initial catalog of CP1 and CP2 stars selected for preparing the training dataset used in the XGBoost classification pipeline. This catalog serves as the reference list for identifying and organizing the labeled stellar samples used for model training and validation.
+
+
 1. Feature Extraction from TESS Light Curves
 
 Overview
