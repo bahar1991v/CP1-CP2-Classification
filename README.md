@@ -224,6 +224,13 @@ results/xgb_external/
 Purpose
 
 This pipeline provides a reproducible framework for evaluating the photometric classification of CP stars and applying the trained classifier to an external sample with unknown class labels.
+##Application to new stars
+Classification of New Stars
+
+The XGBoost model was applied to 14,673 additional targets with short-cadence TESS photometric data and LAMOST spectral information. The predicted XGBoost probabilities were compared with the corresponding LAMOST classifications, and the targets were categorized into three agreement levels: Very Good (7,091 stars), Good (2,510 stars), and Uncertain (5,072 stars).
+
+The results are provided in XGBoost_New_Stars_Classification_Results.csv.
+
 
 3. Spectroscopic Classification Using Gaussian Probability Distributions
 
