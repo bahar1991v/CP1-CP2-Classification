@@ -224,6 +224,8 @@ results/xgb_external/
 Purpose
 
 This pipeline provides a reproducible framework for evaluating the photometric classification of CP stars and applying the trained classifier to an external sample with unknown class labels.
+
+
 ##Application to new stars
 Classification of New Stars
 
